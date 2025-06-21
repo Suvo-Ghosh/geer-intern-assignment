@@ -21,16 +21,19 @@ This is the **frontend** of the Geer-like e-commerce platform built with **Next.
 ## ⚙️ Setup Instructions
 
 ```bash
-# 1. Navigate to frontend
+# 1. git clone 
+https://github.com/Suvo-Ghosh/geer-intern-assignment.git
+# 2. Navigate to frontend
 cd frontend
 
-# 2. Install dependencies
+# 3. Install dependencies
 npm install
 
-# 3. Run the development server
+# 4. Run the development server
 npm run dev
 
 ```
+Access the site at: http://localhost:3000
 
 # 🔧 Geer Clone – Backend
 
@@ -48,8 +51,20 @@ It serves product data to the frontend via REST API.
 
 - Node.js
 - Express.js  
+ 
+ 
+## ⚙️ Setup Instructions
 
-## 📁 Folder Structure
+```bash
+# 1. Navigate to backend
+cd backend
 
+# 2. Install dependencies
+npm install
+
+# 3. Start the server
+npm run dev
+```
+Access API at: http://localhost:5000/api/products
 
 
