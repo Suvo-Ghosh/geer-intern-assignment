@@ -1,6 +1,6 @@
 # 🛍️ Geer Clone – Frontend
 
-This is the **frontend** of the Geer-like e-commerce platform built with **Next.js 14 (App Router)**. It fetches product data from the backend and displays them in a responsive product grid. Clicking a product navigates to its dynamic detail page.
+This is the **frontend** of the Geer-like e-commerce platform built with **Next.js 15 (App Router)**. It fetches product data from the backend and displays them in a responsive product grid. Clicking a product navigates to its dynamic detail page.
 
 ## 🚀 Features
 
@@ -21,8 +21,7 @@ This is the **frontend** of the Geer-like e-commerce platform built with **Next.
 ## ⚙️ Setup Instructions
 
 ```bash
-# 1. git clone 
-https://github.com/Suvo-Ghosh/geer-intern-assignment.git
+# 1. git clone https://github.com/Suvo-Ghosh/geer-intern-assignment.git
 # 2. Navigate to frontend
 cd frontend
 
@@ -37,14 +36,13 @@ Access the site at: http://localhost:3000
 
 # 🔧 Geer Clone – Backend
 
-This is the **backend API** server for the Geer-like e-commerce platform built using **Express.js** and **MongoDB**.
+This is the **backend API** server for the Geer-like e-commerce platform built using **Express.js**.
 
 It serves product data to the frontend via REST API.
 
 ## 🚀 Features
 
-- REST API with Express.js   
-- Product schema and model with Mongoose
+- REST API with Express.js    
 - Simple `GET /api/products` , `POST /api/products` , `DELETE /api/products/:id`endpoint
 
 ## 📦 Tech Stack
@@ -56,13 +54,14 @@ It serves product data to the frontend via REST API.
 ## ⚙️ Setup Instructions
 
 ```bash
-# 1. Navigate to backend
-cd backend
+# 1. git clone https://github.com/Suvo-Ghosh/geer-intern-assignment.git
+# 2. Navigate to frontend
+cd frontend
 
-# 2. Install dependencies
+# 3. Install dependencies
 npm install
 
-# 3. Start the server
+# 4. Run the development server
 npm run dev
 ```
 Access API at: http://localhost:5000/api/products
